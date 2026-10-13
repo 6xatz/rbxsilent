@@ -48,41 +48,7 @@ Because the actual Roblox client continues running, networking and game simulati
 
 ## Project Lineage & Inspiration
 
-This project is based on ideas and work from several existing Roblox headless projects.
-
-### 1. toastering/rbxsilent
-
-The original `rbxsilent` project introduced the core concept of making the Roblox client "headless" by disabling rendering. It demonstrated that Roblox could continue calculating physics and networking without continuously rendering the game to the screen, while also supporting multiple clients.
-
-Original project:
-
-- https://github.com/toastering/rbxsilent
-
-### 2. Stefanuk12/rbxsilent
-
-Stefanuk12's project is a fork of toastering's `rbxsilent` and continued the same headless approach. It also documented several limitations of the original implementation, including the lack of built-in anti-AFK functionality and difficulties restoring hidden clients.
-
-Stefanuk12's project:
-
-- https://github.com/Stefanuk12/rbxsilent
-
-### 3. sebi12391/Roblox-Headless
-
-sebi12391's `Roblox-Headless` is also a fork of the original `rbxsilent` concept, but focuses more on usability and process management.
-
-It introduced:
-
-- A hide/unhide keybind
-- A keybind to terminate all Roblox clients
-- Automatic low process priority while clients are hidden
-
-Project:
-
-- https://github.com/sebi12391/Roblox-Headless
-
-### This Project
-
-This project takes inspiration from that progression:
+Based on ideas and work from several existing Roblox headless projects:
 
 **toastering → Stefanuk12 → sebi12391 → this project**
 
@@ -96,4 +62,4 @@ Use it at your own discretion. Roblox updates may change client behavior and can
 
 ## License
 
-See `LICENSE` for the applicable license terms.
+All associated resources. are licensed under the [MIT License](https://mit-license.org/).
